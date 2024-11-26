@@ -1,0 +1,52 @@
+﻿
+@inject IHttpContextAccessor HttpContextAccessor;
+
+@{
+    string nome = HttpContextAccessor.HttpContext.Session.GetString("nome");
+}
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-6">
+
+            <br />
+            <br />
+
+            Seja bem vindo <b>@nome</b>!!!
+            <input type="button" class="btn btn-primary" onclick="fazer_logout()" value="Sair" />
+            <br /><br />
+
+            <h2>Área Administrativa</h2>
+            <br>
+
+            <a href="/GerenciarFuncionario/PageFunc">
+                <input type="button" class="btn btn-primary" value="Gerenciar Funcionários" style="width:200px" onclick="" />
+            </a>
+            <br />
+            <br />
+
+            <a href="/GerenciarProduto/PageProd">
+                <input type="button" class="btn btn-primary" value="Gerenciar Produtos" style="width:200px" onclick="" />
+            </a>
+            <br />
+            <br />
+
+            <a href="/GerenciarUsuario/PageUsu">
+                <input type="button" class="btn btn-primary" value="Gerenciar Usuários" style="width:200px" onclick="" />
+            </a>
+            <br />
+            <br />
+
+            <a href="/GerenciarAtendimento/PageAtend">
+                <input type="button" class="btn btn-primary" value="Gerenciar Consultas" style="width:200px" onclick="" />
+            </a>
+            <br />
+            <br />
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>

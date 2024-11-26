@@ -1,0 +1,177 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<script>
+    function excluir(ru, n, e, s, c) {
+            if (confirm("Deseja realmente apagar o registro?")){
+            document.getElementById("ru").value = ru;
+            document.getElementById("nome").value = n;
+            document.getElementById("email").value = e;
+            document.getElementById("senha").value = s;
+            document.getElementById("contato").value = c;
+            enviar("excluir");
+        }
+    }
+
+    function editar(ru, n, e, s, c){
+        document.getElementById("ru").value = ru;
+        document.getElementById("nome").value = n;
+        document.getElementById("email").value = e;
+        document.getElementById("senha").value = s;
+        document.getElementById("contato").value = c;
+    }
+
+    function montar_tabela(jsonResp){
+      var linhas = "";
+      for (i=0;i<jsonResp.length;i++){
+            var ru = jsonResp[i].ru;
+            var nome = jsonResp[i].nome;
+            var email = jsonResp[i].email; // a primeira letra depois do ponto "." TEM QUE SER MINUSCULA
+            var senha = jsonResp[i].senha;
+            var contato = jsonResp[i].contato;
+            var l = `<tr>
+                          <td><img src="/img/excluir.png" onClick="excluir(${ru},'${nome}','${email}','${senha}','${contato}')"/></td>
+                          <td><img src="/img/editar.png" onClick="editar(${ru},'${nome}','${email}','${senha}','${contato}')"/></td>
+                          <td>${ru}</td>
+                          <td>${nome}</td>
+                          <td>${email}</td>
+                          <td>${senha}</td>
+                          <td>${contato}</td>
+                    </tr>`;
+            linhas += l;
+      }
+      document.getElementById("corpo_tabela").innerHTML = linhas;
+    }
+
+    function limpar(){
+        document.getElementById("ru").value = "";
+        document.getElementById("nome").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("senha").value = "";
+        document.getElementById("contato").value = "";
+    }
+
+    function enviar(acao){
+      var jsonEnvio = {};
+        jsonEnvio.ru = document.getElementById("ru").value;
+        jsonEnvio.nome = document.getElementById("nome").value;
+        jsonEnvio.email = document.getElementById("email").value;
+        jsonEnvio.senha = document.getElementById("senha").value;
+        jsonEnvio.contato = document.getElementById("contato").value;
+      jsonEnvio.acao    = acao;
+      limpar();
+      if (acao=="salvar"){
+          if (jsonEnvio.ru==""){
+              jsonEnvio.acao = "inserir";
+          }else{
+              jsonEnvio.acao = "alterar"
+          }
+      }
+      $.ajax({
+          //url: "AlunoController.php", //para php
+          //url: "AlunoServlet", //para java EE
+          url: "/GerenciarUsuario/" + jsonEnvio.acao + "/",
+          data: jsonEnvio,
+          type: "get",
+          success: function (jsonResp){
+              if (acao=="consultar"){
+                  // Se for backend em java ou php adicionar a linha abaixo
+                  //jsonResp = JSON.parse(jsonResp);
+                  montar_tabela(jsonResp);
+              }else{
+                  alert(jsonResp);
+                  enviar('consultar');
+              }
+          },
+          error: function () {
+              alert("Ocorreu um erro ao executar a ação!!!");
+          }
+      });
+    }
+
+    /*document.addEventListener('DOMContentLoaded', function () {
+        enviar('consultar');
+    }, false);
+    */
+
+</script>
+
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-6">
+
+            <br /><br />
+            <h2>
+                Gerenciar Usuários
+            </h2>
+            <br /><br />
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="ru" placeholder="RU" disabled>
+                <label for="floatingInput">Registro de usuário (RU)</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <label for="floatingInput">Nome do usuário</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="email" placeholder="Cargo">
+                <label for="floatingInput">Email</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="senha" placeholder="1234">
+                <label for="floatingInput">Senha</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="contato" placeholder="+000 (00) 0 0000-0000">
+                <label for="floatingPassword">Número de contato</label>
+            </div>
+
+            <br />
+
+            <button type="button" class="btn btn-primary" onClick="enviar('consultar')">Buscar</button>
+            <button type="button" class="btn btn-primary" onClick="enviar('salvar')">Salvar</button>
+            <button type="button" class="btn btn-primary" onClick="limpar()">Limpar</button>
+            <br><br>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Excluir</th>
+                        <th scope="col">Editar</th>
+                        <th scope="col">RU</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Senha</th>
+                        <th scope="col">Contato</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider" id="corpo_tabela">
+                    <!--
+                    <tr>
+                        <td><img src="/img/excluir.png" onClick="excluir(${rp},$'{produto}',${preco})" /></td>
+                        <td><img src="/img/editar.png" onClick="editar(${rp},$'{produto}',${preco})" /></td>
+                        <td>1</td>
+                        <td>Água</td>
+                        <td>2.00</td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>

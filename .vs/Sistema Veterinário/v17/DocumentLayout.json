@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\gerenciarusuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\gerenciarusuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\gerenciarfuncionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\gerenciarfuncionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\cadastrarusuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\cadastrarusuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\gerenciarusuario\\pageusu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\gerenciarusuario\\pageusu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\areaadmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\areaadmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\areaadm\\pageadm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\areaadm\\pageadm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\gerenciarfuncionario\\pagefunc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\gerenciarfuncionario\\pagefunc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\areaadm\\pagelogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\areaadm\\pagelogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\models\\minhaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:models\\minhaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\agendarconsulta\\pageagencon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\agendarconsulta\\pageagencon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\home\\especialidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\home\\especialidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\gerenciarproduto\\pageprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\gerenciarproduto\\pageprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\agendarconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\agendarconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\gerenciarprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\gerenciarprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\models\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:models\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\views\\exibirprodutos\\exibprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:views\\exibirprodutos\\exibprod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|c:\\users\\erick\\source\\repos\\sistema veterin\u00E1rio\\controllers\\servicosatendimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5517D81C-E845-4E7A-859E-3F677E213D7E}|Sistema Veterin\u00E1rio.csproj|solutionrelative:controllers\\servicosatendimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageFunc.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarFuncionario\\PageFunc.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciarFuncionario\\PageFunc.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarFuncionario\\PageFunc.cshtml",
+              "RelativeToolTip": "Views\\GerenciarFuncionario\\PageFunc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:19:10.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T00:12:11.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AreaAdm\\PageLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaAdm\\PageLogin.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AreaAdm\\PageLogin.cshtml",
+              "RelativeToolTip": "Views\\AreaAdm\\PageLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T22:32:24.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AreaAdmController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\AreaAdmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AreaAdmController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\AreaAdmController.cs",
+              "RelativeToolTip": "Controllers\\AreaAdmController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:27:32.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageAdm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AreaAdm\\PageAdm.cshtml",
+              "RelativeDocumentMoniker": "Views\\AreaAdm\\PageAdm.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AreaAdm\\PageAdm.cshtml",
+              "RelativeToolTip": "Views\\AreaAdm\\PageAdm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T23:28:13.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarUsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\CadastrarUsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CadastrarUsuarioController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\CadastrarUsuarioController.cs",
+              "RelativeToolTip": "Controllers\\CadastrarUsuarioController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:46:04.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GerenciarFuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarFuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GerenciarFuncionarioController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarFuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\GerenciarFuncionarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:33:05.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageUsu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarUsuario\\PageUsu.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciarUsuario\\PageUsu.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarUsuario\\PageUsu.cshtml",
+              "RelativeToolTip": "Views\\GerenciarUsuario\\PageUsu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T20:50:20.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenciarUsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarUsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GerenciarUsuarioController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarUsuarioController.cs",
+              "RelativeToolTip": "Controllers\\GerenciarUsuarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:49:59.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MinhaConexao.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\MinhaConexao.cs",
+              "RelativeDocumentMoniker": "Models\\MinhaConexao.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\MinhaConexao.cs",
+              "RelativeToolTip": "Models\\MinhaConexao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:42:28.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T22:11:05.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T21:54:24.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageAgenCon.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AgendarConsulta\\PageAgenCon.cshtml",
+              "RelativeDocumentMoniker": "Views\\AgendarConsulta\\PageAgenCon.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\AgendarConsulta\\PageAgenCon.cshtml",
+              "RelativeToolTip": "Views\\AgendarConsulta\\PageAgenCon.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T18:52:25.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Especialidades.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Home\\Especialidades.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Especialidades.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\Home\\Especialidades.cshtml",
+              "RelativeToolTip": "Views\\Home\\Especialidades.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T00:34:13.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:02:53.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageProd.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarProduto\\PageProd.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciarProduto\\PageProd.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\GerenciarProduto\\PageProd.cshtml",
+              "RelativeToolTip": "Views\\GerenciarProduto\\PageProd.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T23:41:08.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AgendarConsulta.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\AgendarConsulta.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendarConsulta.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\AgendarConsulta.cs",
+              "RelativeToolTip": "Controllers\\AgendarConsulta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:51:13.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GerenciarProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarProdutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GerenciarProdutoController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\GerenciarProdutoController.cs",
+              "RelativeToolTip": "Controllers\\GerenciarProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:40:49.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Consultas.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Consultas.cs",
+              "RelativeDocumentMoniker": "Models\\Consultas.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Consultas.cs",
+              "RelativeToolTip": "Models\\Consultas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:17:24.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:59:46.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExibProd.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\ExibirProdutos\\ExibProd.cshtml",
+              "RelativeDocumentMoniker": "Views\\ExibirProdutos\\ExibProd.cshtml",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Views\\ExibirProdutos\\ExibProd.cshtml",
+              "RelativeToolTip": "Views\\ExibirProdutos\\ExibProd.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T00:36:43.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServicosAtendimentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\ServicosAtendimentosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServicosAtendimentosController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\ServicosAtendimentosController.cs",
+              "RelativeToolTip": "Controllers\\ServicosAtendimentosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:21:45.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Erick\\source\\repos\\Sistema Veterin\u00E1rio\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:32:45.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

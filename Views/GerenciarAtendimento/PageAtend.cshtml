@@ -1,0 +1,214 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<script>
+
+    function excluir(rc, nr, np, es, de, em, co, da) {
+        if (confirm("Deseja realmente apagar o registro?")) {
+            document.getElementById("rc").value = rc;
+            document.getElementById("nome_res").value = nr;
+            document.getElementById("nome_pac").value = np;
+            document.getElementById("especie").value = es;
+            document.getElementById("detalhes").value = de;
+            document.getElementById("email").value = em;
+            document.getElementById("contato").value = co;
+            document.getElementById("data").value = da;
+            enviar("excluir");
+        }
+    }
+
+    function editar(rc, nr, np, es, de, em, co, da) {
+        document.getElementById("rc").value = rc;
+        document.getElementById("nome_res").value = nr;
+        document.getElementById("nome_pac").value = np;
+        document.getElementById("especie").value = es;
+        document.getElementById("detalhes").value = de;
+        document.getElementById("email").value = em;
+        document.getElementById("contato").value = co;
+        document.getElementById("data").value = da;
+    }
+
+    function montar_tabela(jsonResp) {
+        var linhas = "";
+        for (i = 0; i < jsonResp.length; i++) {
+            var rc = jsonResp[i].rc;
+            var nome_res = jsonResp[i].nome_res;
+            var nome_pac = jsonResp[i].nome_pac;
+            var especie = jsonResp[i].especie;
+            var detalhes = jsonResp[i].detalhes;
+            var email = jsonResp[i].email;
+            var contato = jsonResp[i].contato;
+            var data = jsonResp[i].data;
+            var l = `<tr>
+                        <td><img src="/img/excluir.png" onClick="excluir(${rc},'${nome_res}','${nome_pac}','${especie}','${detalhes}','${email}',${contato},'${data}')"/></td>
+                        <td><img src="/img/editar.png" onClick="editar(${rc},'${nome_res}','${nome_pac}','${especie}','${detalhes}','${email}',${contato},'${data}')"/></td>
+                        <td>${rc}</td>
+                        <td>${nome_res}</td>
+                        <td>${nome_pac}</td>
+                        <td>${especie}</td>
+                        <td>${detalhes}</td>
+                        <td>${email}</td>
+                        <td>${contato}</td>
+                        <td>${data}</td>
+                      </tr>`;
+            linhas += l;
+        }
+        document.getElementById("corpo_tabela").innerHTML = linhas;
+    }
+
+    function limpar() {
+        document.getElementById("rc").value = "";
+        document.getElementById("nome_res").value = "";
+        document.getElementById("nome_pac").value = "";
+        document.getElementById("especie").value = "";
+        document.getElementById("detalhes").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("contato").value = "";
+        document.getElementById("data").value = "";
+    }
+
+    function enviar(acao) {
+        var jsonEnvio = {};
+        jsonEnvio.rc = document.getElementById("rc").value;
+        jsonEnvio.nome_res = document.getElementById("nome_res").value;
+        jsonEnvio.nome_pac = document.getElementById("nome_pac").value;
+        jsonEnvio.especie  = document.getElementById("especie").value;
+        jsonEnvio.detalhes = document.getElementById("detalhes").value;
+        jsonEnvio.email    = document.getElementById("email").value;
+        jsonEnvio.contato  = document.getElementById("contato").value;
+        jsonEnvio.data     = document.getElementById("data").value;
+        jsonEnvio.acao = acao;
+        limpar();
+        if (acao == "salvar") {
+            if (jsonEnvio.rc == "") {
+                jsonEnvio.acao = "inserir";
+            } else {
+                jsonEnvio.acao = "alterar"
+            }
+        }
+        $.ajax({
+            url: "/GerenciarAtendimento/" + jsonEnvio.acao + "/",
+            data: jsonEnvio,
+            type: "get",
+            success: function (jsonResp) {
+                if (acao == "consultar") {
+                    montar_tabela(jsonResp);
+                } else {
+                    alert(jsonResp);
+                    enviar('consultar');
+                }
+            },
+            error: function () {
+                alert("Ocorreu um erro ao executar a ação!!!");
+            }
+        });
+    }
+
+    /*document.addEventListener('DOMContentLoaded', function () {
+        enviar('consultar');
+    }, false);
+    */
+
+</script>
+
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-6">
+
+            <br /><br />
+            <h2>
+                Gerenciar Consultas
+            </h2>
+            <br /><br />
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="rc" placeholder="">
+                <label for="floatingInput">Registro de consulta</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nome_res" placeholder="Nome do responsável">
+                <label for="floatingInput">Nome do responsável</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nome_pac" placeholder="Nome do paciente">
+                <label for="floatingInput">Nome do paciente (se tiver)</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="especie" placeholder="Ex: Cão, gato ou silvestres">
+                <label for="floatingInput">Espécie</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="detalhes" placeholder="">
+                <label for="floatingInput">Motivo da Consulta </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="email" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="contato" placeholder="+000 (00) 0 0000-0000">
+                <label for="floatingInput">Número de contato</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="date" class="form-control" id="data" placeholder="">
+                <label for="floatingInput">Data da Consulta </label>
+            </div>
+
+            <br />
+
+            <button type="button" class="btn btn-primary" onClick="enviar('consultar')">Buscar</button>
+            <button type="button" class="btn btn-primary" onClick="enviar('salvar')">Salvar</button>
+            <button type="button" class="btn btn-primary" onClick="limpar()">Limpar</button>
+            <br><br>
+
+            
+
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>
+
+<div class="container text-center">
+    <table class="table table-bordered align-middle">
+        <thead>
+            <tr>
+                <th scope="col">Excluir</th>
+                <th scope="col">Editar</th>
+                <th width="10%" scope="col">RC</th>
+                <th width="0%" scope="col">Nome Responsável</th>
+                <th width="0%" scope="col">Nome Paciente</th>
+                <th width="0%" scope="col">Espécie</th>
+                <th width="50%" scope="col">Detalhes</th>
+                <th width="10%" scope="col">Email</th>
+                <th width="10%" scope="col">Contato</th>
+                <th width="90%" scope="col">Data</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider" id="corpo_tabela">
+            <!--
+            <tr>
+                <td><img src="/img/excluir.png" onClick="excluir(${rf},$'{nome}',${senha})" /></td>
+                <td><img src="/img/editar.png" onClick="editar(${rf},$'{nome}',${senha})" /></td>
+                <td>1</td>
+                <td>Jorge</td>
+                <td>123</td>
+            </tr>
+            -->
+        </tbody>
+    </table>
+</div>
