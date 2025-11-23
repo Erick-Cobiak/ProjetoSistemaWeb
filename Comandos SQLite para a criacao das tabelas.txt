@@ -1,0 +1,36 @@
+CREATE TABLE "consulta" (
+	"rc"	INTEGER,
+	"nome_res"	TEXT,
+	"nome_pac"	TEXT,
+	"especie"	TEXT,
+	"detalhes"	TEXT,
+	"email"	TEXT,
+	"contato"	INTEGER,
+	"data"	TEXT,
+	PRIMARY KEY("rc" AUTOINCREMENT)
+)
+
+CREATE TABLE "funcionario" (
+	"rf"	INTEGER,
+	"nome"	TEXT,
+	"cargo"	TEXT,
+	"email"	TEXT,
+	"senha"	TEXT,
+	PRIMARY KEY("rf" AUTOINCREMENT)
+)
+
+CREATE TABLE 'produtos'(
+	'rp' INTEGER,
+	'produto' TEXT, 
+	'preco' TEXT, 
+	PRIMARY KEY('rp' AUTOINCREMENT)
+)
+
+CREATE TABLE "usuario" (
+	"ru"	INTEGER,
+	"nome"	TEXT,
+	"email"	TEXT,
+	"senha"	TEXT,
+	"contato"	INTEGER,
+	PRIMARY KEY("ru" AUTOINCREMENT)
+)
