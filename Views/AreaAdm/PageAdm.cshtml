@@ -5,6 +5,26 @@
     string nome = HttpContextAccessor.HttpContext.Session.GetString("nome");
 }
 
+<script>
+    function fazer_logout(){
+     var jsonEnvio = {};
+     $.ajax({
+      url:"/AreaAdm/Logout",
+      data: jsonEnvio,
+      type: "post",
+      success: function (resp){
+       if (resp=="ok"){
+        document.location.href="/AreaAdm/PageLogin";
+       }else{
+        alert("Ocorreu um erro ao realizar o logout!")
+       }
+
+      }
+     })
+    }
+
+</script>
+
 <div class="container text-center">
     <div class="row">
         <div class="col">

@@ -9,87 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sistema_Veterinário
 build_property.RootNamespace = Sistema_Veterinário
-build_property.ProjectDir = C:\Users\Erick\source\repos\Sistema Veterinário\
+build_property.ProjectDir = C:\Users\Erick\Desktop\Projeto Completo\ProjetoSistemaWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Erick\source\repos\Sistema Veterinário
+build_property.MSBuildProjectDirectory = C:\Users\Erick\Desktop\Projeto Completo\ProjetoSistemaWeb
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/AgendarConsulta/PageAgenCon.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/AgendarConsulta/PageAgenCon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhckNvbnN1bHRhXFBhZ2VBZ2VuQ29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/AreaAdm/PageAdm.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/AreaAdm/PageAdm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYUFkbVxQYWdlQWRtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/AreaAdm/PageLogin.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/AreaAdm/PageLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYUFkbVxQYWdlTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/CadastrarFuncionario/CadFunc.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/CadastrarFuncionario/CadFunc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cmFyRnVuY2lvbmFyaW9cQ2FkRnVuYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/CadastrarUsuario/CadUsua.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/CadastrarUsuario/CadUsua.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cmFyVXN1YXJpb1xDYWRVc3VhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/ExibirProdutos/ExibProd.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/ExibirProdutos/ExibProd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhpYmlyUHJvZHV0b3NcRXhpYlByb2QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/GerenciarAtendimento/PageAtend.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/GerenciarAtendimento/PageAtend.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFyQXRlbmRpbWVudG9cUGFnZUF0ZW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/GerenciarFuncionario/PageFunc.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/GerenciarFuncionario/PageFunc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFyRnVuY2lvbmFyaW9cUGFnZUZ1bmMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/GerenciarProduto/PageProd.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/GerenciarProduto/PageProd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFyUHJvZHV0b1xQYWdlUHJvZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/GerenciarUsuario/PageUsu.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/GerenciarUsuario/PageUsu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFyVXN1YXJpb1xQYWdlVXN1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Home/Especialidades.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Home/Especialidades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc3BlY2lhbGlkYWRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Home/Index.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Home/Privacy.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/ServicosAtendimentos/PageServAtend.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/ServicosAtendimentos/PageServAtend.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NBdGVuZGltZW50b3NcUGFnZVNlcnZBdGVuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Shared/Error.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/_ViewImports.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/_ViewStart.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erick/source/repos/Sistema Veterinário/Views/Shared/_Layout.cshtml]
+[C:/Users/Erick/Desktop/Projeto Completo/ProjetoSistemaWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hamsge1x5o
